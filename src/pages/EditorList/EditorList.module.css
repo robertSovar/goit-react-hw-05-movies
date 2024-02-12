@@ -1,0 +1,18 @@
+.editorListUl {
+  list-style-type: none;
+}
+
+.editorListLi {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.editorListLink {
+  text-decoration: none;
+  color: #191d1e;
+}
+
+.editorListLink:hover {
+  color: brown;
+}

@@ -1,0 +1,25 @@
+.containerLayout {
+  margin: 0 auto;
+}
+
+.layoutHeader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: aqua;
+}
+
+.layoutTitle {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #191d1e;
+}
+
+.layoutTitle:hover {
+  color: tomato;
+}
