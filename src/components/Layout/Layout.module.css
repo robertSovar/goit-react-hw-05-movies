@@ -10,7 +10,7 @@
   background-color: aqua;
 }
 
-.layoutTitle {
+.layoutHeader a {
   display: inline-block;
   text-decoration: none;
   padding: 14px;
@@ -20,6 +20,10 @@
   color: #191d1e;
 }
 
-.layoutTitle:hover {
-  color: tomato;
+.layoutHeader a:hover {
+  color: brown;
+}
+
+.layoutHeader .active {
+  color: brown;
 }

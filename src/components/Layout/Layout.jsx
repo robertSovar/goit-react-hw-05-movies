@@ -8,10 +8,17 @@ export const Layout = () => {
     <div className={styles.containerLayout}>
       <header className={styles.layoutHeader}>
         <nav>
-          <NavLink className={styles.layoutTitle} to="/" end>
+          <NavLink
+            className={({ isActive }) => (isActive ? styles.active : '')}
+            to="/"
+            end
+          >
             Home
           </NavLink>
-          <NavLink className={styles.layoutTitle} to="/movies">
+          <NavLink
+            className={({ isActive }) => (isActive ? styles.active : '')}
+            to="/movies"
+          >
             Movies
           </NavLink>
         </nav>
